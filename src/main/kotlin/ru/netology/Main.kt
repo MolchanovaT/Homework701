@@ -22,7 +22,7 @@ fun main() {
         println("Comment successfully created")
     }
 
-    val badComment = newBadComment(1, 2, 9)
+    val badComment = newBadComment(1, 2, 11)
     if (WallService.reportComment(badComment)) {
         println("The report about bad comment successfully created")
     }
